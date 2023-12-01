@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09a8f1;
+  }
+  
+  header {
+    background-color: #f80a0a;
+    color: #131212;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #blog-posts, #create-post {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    background-color: #4b0ef1;
+    color: #f5dd0b;
+    cursor: pointer;
+  }
+  
+  .comment-section {
+    margin-top: 1rem;
+  }
+  
+  .comment {
+    margin-bottom: 0.5rem;
+    border: 1px solid #0f0f0f;
+    padding: 0.5rem;
+  }
+  
+  .comment-form {
+    margin-top: 1rem;
+  }
+  
